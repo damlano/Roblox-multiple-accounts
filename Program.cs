@@ -39,7 +39,7 @@ namespace RobloxMultipleInstances
                     bool fileFound = dirInfo.GetFiles("RobloxPlayerInstaller.exe", SearchOption.TopDirectoryOnly).Length > 0;
                     if (fileFound)
                     {
-                            File.Delete(Path.Combine(directory, "RobloxPlayerInstaller.exe"));
+                            // File.Delete(Path.Combine(directory, "RobloxPlayerInstaller.exe"));
                     }
                 }
             }
